@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "version": 2,
+  "title": "Schema for an executor which prepares the environment file",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "envFile": {
+      "type": "string",
+      "description": "The path to the environment file. If not provided, a default path is used."
+    },
+    "templateFile": {
+      "type": "string",
+      "description": "The path to the template file. If not provided, a default path based on the environment file path is used."
+    }
+  },
+  "required": ["envFile"]
+}

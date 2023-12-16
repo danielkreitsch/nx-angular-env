@@ -1,0 +1,9 @@
+{
+  "executors": {
+    "prepare": {
+      "implementation": "./src/executors/prepare/executor",
+      "schema": "./src/executors/prepare/schema.json",
+      "description": "Prepares the environment file by replacing the placeholders with the actual values."
+    }
+  }
+}
