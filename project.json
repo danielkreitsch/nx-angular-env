@@ -52,11 +52,7 @@
       "executor": "@nx/eslint:lint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": [
-          "./src",
-          "{projectRoot}/package.json",
-          "./package.json"
-        ]
+        "lintFilePatterns": ["./src", "{projectRoot}/package.json", "./package.json"]
       }
     },
     "test": {
