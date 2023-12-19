@@ -1,6 +1,6 @@
 {
   "name": "nx-angular-env",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Nx plugin for the configuration of Angular applications via external environment variables",
   "keywords": [
     "nx",
